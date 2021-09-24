@@ -121,6 +121,8 @@ int main(){
 
     RenderWindow window(VideoMode(1366,768),"Run for your dream girl!");
     view.reset(sf::FloatRect(0,0,640,480));
+    
+    int s = 0;
 
     //Timers
     float CurrentFrame = 0;
